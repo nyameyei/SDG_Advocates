@@ -21,7 +21,7 @@ var lyr_GMRT_0 = new ol.layer.Tile({
         var lyr_OpenStreetMap_1 = new ol.layer.Tile({
             'title': 'OpenStreetMap',
             //'type': 'base',
-            'opacity': 1.000000,
+            'opacity': 0.800000,
             
             
             source: new ol.source.XYZ({
