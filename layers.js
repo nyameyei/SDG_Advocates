@@ -21,7 +21,7 @@ var lyr_GMRT_0 = new ol.layer.Tile({
         var lyr_OpenStreetMap_1 = new ol.layer.Tile({
             'title': 'OpenStreetMap',
             //'type': 'base',
-            'opacity': 1.000000,
+            'opacity': 0.800000,
             
             
             source: new ol.source.XYZ({
@@ -49,4 +49,4 @@ var lyr_GPW_Population_Density_2020_3 = new ol.layer.Tile({
 
 
 lyr_GMRT_0.setVisible(true);lyr_OpenStreetMap_1.setVisible(true);lyr_GPW_Population_Density_2020_3.setVisible(true);
-var layersList = [lyr_GMRT_0,lyr_GPW_Population_Density_2020_3];
+var layersList = [lyr_OpenStreetMap_1,lyr_GMRT_0,lyr_GPW_Population_Density_2020_3];
